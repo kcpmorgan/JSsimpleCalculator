@@ -1,10 +1,11 @@
+    // This is a named Function - function expression
 //function greet(name){
  //   return "Hello " + name + "!";
 //}
 
 //console.log(greet("Kim"));
 
-//function declaration fo Anonymous Function
+//function declaration / Anonymous Function
 
 //let greet = function(name)
 //{
@@ -14,12 +15,12 @@
 //console.log(greet("Kim"));
 
 //function displayName(studentName){
- //   document.write(`
+ //  document.write(`
  //   <h2>Student List</h2>
- //   <p>Studebt name: ${studentName} </p>
+ //   <p>Student name: ${studentName} </p>
  //   <hr>
  //   `);
-// }
+ //}
 
 //Define a function called multiplyThreewhich accepts a number and returns that number multiplied by 3.
 
