@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+h1, h2{
+    font-family: fantasy;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: cadetblue;
+}
+.container{
+    margin-left: 3%;
+    
+}
+.start{
+    color: green;
+    background-color: gainsboro;
+    cursor: pointer;
+    padding: 9px;
+}
+.inst{
+    text-decoration: underline;
+    font-size: 20px;
+}

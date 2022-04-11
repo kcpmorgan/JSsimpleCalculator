@@ -24,9 +24,8 @@
 
 //Define a function called multiplyThreewhich accepts a number and returns that number multiplied by 3.
 
-let multiplyThree = function(number)
+let multipBylyThree = function(number)
 {
-    return ""
+    document.write(`${number*3}`);
+    return (number * 3);
 }
-console.log()
-function multiplyThree()

@@ -24,7 +24,7 @@ let result=sum(10,10);
 console.log(result);
 sum(3,3);
 sum(6,2);
-
+//NaN = Not a number --> using string
 
 let subtotal =0;
 

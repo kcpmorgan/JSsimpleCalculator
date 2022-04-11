@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
     <title>Class 3</title>
 </head>
 <body>
-    <header>
-        <h1>Simple calculator in JS</h1>
-    </header>
-    <main>
-        <p>Please follow the next instructions to make the calculator work:</p>
-        <ol>
-            <li>Click on the button to start.</li>
-            <li>Enter the two numbers in the prompt</li>
-            <li>The calculator will display in the operations zone the results of the four operations = - / *</li>
-        </ol>
-        <button>Start</button>
-        <h2>Calculator Zone!</h2>
-        <div id="calculationZone">
+    <div class="container">
 
-        </div>
-
-    </main>
-
-
-    <script src="calculator.js"></script>
-</body>
-</html>
+        <header>
+            <h1>Simple calculator in JS</h1>
+        </header>
+        <main>
+            <p class="inst">Please follow the instructions to make the calculator work:</p>
+            <ol>
+                <li>Click on the button to start.</li>
+                <li>Enter two numbers in the prompt.</li>
+                <li>The calculator will display the results of the four operations + - / * in the operations zone.</li>
+            </ol>
+            <button class=start onclick="calculator();">Start</button>
+            <h2>Calculation Zone!</h2>
+            
+            <div id="calculationZone">
+    
+            </div>
+    
+        </main>
+        <footer>
+            
+        </footer>
+    
+    
+        <script src="calculator.js"></script>
+    </body>
+    </html>
+    </div>
+    
